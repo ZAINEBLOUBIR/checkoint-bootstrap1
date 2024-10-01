@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Travel Agency</title>
+    <style>
+        .logo{
+            mix-blend-mode: multiply;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="nav navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="images.jpeg" alt="logo" class="logo"></a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav><br><br><br>
+
+
+
+<!-- Hero Section -->
+<div class="hero container-fluid " style="background-image: url('OIP\ \(1\).jpeg'); background-size: cover; Background-position: center;background-repeat: no-repeat; color: white; ">
+    <div class="text-center">
+        <h1 class="display-4">Explore the World</h1>
+        <p class="lead">Your adventure starts here</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Book Now</a>
+    </div><br><br><br>
+</div>
+
+<!-- Destinations Section -->
+<div class="container">
+    <h2 class="text-center">Top Destinations</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="R.jpeg" class="card-img-top" alt="Destination 1" m-y="15px" >
+                <div class="card-body">
+                    <h5 class="card-title">TUNISIA</h5>
+                    
+                    <p class="card-text">La Tunisie, le plus petit des États du Maghreb, se situe au nord du continent africain. Il est séparé de l'Europe par une distance de 140 km au niveau du canal de Sicile. Le cap Angela, situé dans le gouvernorat de Bizerte, constitue le point le plus septentrional de l'Afrique continentale. Disposant d'une </p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="OIP.jpeg" class="card-img-top" alt="Destination 1" m-y="15px" >
+                <div class="card-body">
+                    <h5 class="card-title">SAUDI</h5>
+                    <p class="card-text">Saudi Arabia is a sparsely populated kingdom in the Middle East, known for its oil industry and ruled by the Saud family that embraced the conservative Wahhabi Islamic movement in the 18th century.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="vista-zurich-suiza-1024x683.jpg" class="card-img-top" alt="Destination 1" m-y="15px" >
+                <div class="card-body">
+                    <h5 class="card-title">SWITZERLAND</h5>
+                    <p class="card-text">A landlocked, mountainous country, Switzerland's geographical position in central Europe and studied neutrality have given it the access and political stability to become one of the world's wealthiest countries. Switzerland has for centuries been a neutral state, which means that it cannot take part in armed conflict unless it is attacked.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div><br><br><br>
+
+<!-- Tours Section -->
+<div class="container">
+    <h2 class="text-center">Tour Packages</h2>
+    <div class="accordion" id="toursAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        A Taste of India Summer Special
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                <div class="card-body">
+                    Unbeatable price for a bucket list journey: Savor India's Golden Triangle, from Delhi & Agra to the Taj Mahal & Jaipur; plus Nepal optional extension from $1499 with Flights for 8 days per person, double occupancy <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+</div>
+
+<!-- Contact Form -->
+<div class="container">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="destination">Destination of Interest</label>
+            <input type="text" class="form-control" id="destination">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+    <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    <a href="#" class="social-icon">Facebook</a>
+    <a href="#" class="social-icon">Twitter</a>
+    <a href="#" class="social-icon">Instagram</a>
+</footer>
+    </div>
+</body>
+</html>
